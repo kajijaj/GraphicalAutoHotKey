@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>773</width>
+    <height>603</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>761</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="3">
+      <widget class="QPushButton" name="start">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;
+border: 2px solid #094065;</string>
+       </property>
+       <property name="text">
+        <string>Запустить файл</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" colspan="2">
+      <widget class="QCalendarWidget" name="calendar">
+       <property name="font">
+        <font>
+         <family>Palatino Linotype</family>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#qt_calendar_yearbutton {
+    background-color: rgba(68,84,106,1);
+}
+QToolButton#qt_calendar_prevmonth {
+    qproperty-icon: url(assets/icons/left-arrow.png);
+}
+QToolButton#qt_calendar_nextmonth {
+    qproperty-icon: url(assets/icons/right-arrow.png);
+}
+#qt_calendar_yearedit {
+    background-color: rgba(68,84,106,1);
+}
+#qt_calendar_navigationbar {
+    background-color: rgba(68,84,106,1);
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="clear_db">
+       <property name="minimumSize">
+        <size>
+         <width>185</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;
+border: 2px solid #094065;</string>
+       </property>
+       <property name="text">
+        <string>Очистить БД</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="date_label">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2" alignment="Qt::AlignTop">
+      <widget class="QPushButton" name="Appearance">
+       <property name="minimumSize">
+        <size>
+         <width>185</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>185</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;
+border: 2px solid #094065;</string>
+       </property>
+       <property name="text">
+        <string>Настроить внешний вид</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QTimeEdit" name="time">
+       <property name="font">
+        <font>
+         <family>Verdana</family>
+         <italic>true</italic>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3" alignment="Qt::AlignHCenter|Qt::AlignTop">
+      <widget class="QPushButton" name="changebutton">
+       <property name="minimumSize">
+        <size>
+         <width>185</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;
+border: 2px solid #094065;</string>
+       </property>
+       <property name="text">
+        <string>Редактировать события</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="time_label">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="load">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;
+border: 2px solid #094065;</string>
+       </property>
+       <property name="text">
+        <string>Загрузить БД</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2" colspan="2">
+      <widget class="QLabel" name="db">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QPushButton" name="load_design">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;
+border: 2px solid #094065;</string>
+       </property>
+       <property name="text">
+        <string>Загрузить дизайн</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="write">
+       <property name="minimumSize">
+        <size>
+         <width>185</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;
+border: 2px solid #094065;</string>
+       </property>
+       <property name="text">
+        <string>Записать в базу данных</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QPushButton" name="AddButton">
+       <property name="minimumSize">
+        <size>
+         <width>185</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>104</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;
+border: 2px solid #094065;</string>
+       </property>
+       <property name="text">
+        <string>Добавить событие</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="writefile">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 10px;
+border: 2px solid #094065;</string>
+       </property>
+       <property name="text">
+        <string>Записать в файл</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" rowspan="2" colspan="2">
+      <widget class="QListWidget" name="events">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2" colspan="2">
+      <widget class="QPlainTextEdit" name="plainTextEdit">
+       <property name="plainText">
+        <string>Небольшая инструкция:
+1. По умолчанию используется моя БД, в которой установлены правильные настройки. Однако можно загрузить пользовательскую БД, если она соответствует требованиям, нажав на кнопку &quot;Загрузить БД&quot;
+2. Чтобы добавить событие, нажмите &quot;Добавить событие&quot;, затем ОБЯЗАТЕЛЬНО записать событие в базу данных
+3. После добавления событие нужно отредактировать, нажав на кнопку &quot;Редактировать события&quot;
+4. Далее необходимо записать события в файл, нажав на кнопку &quot;Записать в файл&quot;
+5. Теперь можно запускать скрипт, который выполнит все события в определенное время. Для этого нажмите на кнопку &quot;Запустить файл&quot;
+
+Опционально:
+1. Чтобы удалить все записи из БД, нажмите на кнопку &quot;Очистить БД&quot;
+2. Чтобы создать файл с настройками внешнего вида, нажмите на кнопку &quot;Настроить внешний вид&quot;
+3. Чтобы загрузить файл с настройками внешнего вида, нажмите на кнопку &quot;Загрузить дизайн&quot;
+</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLabel" name="is_running">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLabel" name="is_recorded">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>773</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

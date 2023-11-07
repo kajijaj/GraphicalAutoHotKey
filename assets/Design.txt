@@ -1,0 +1,7 @@
+C:/Users/1/PycharmProjects/pythonProject1/assets/Background/Black Sapphire.jpg
+Perpetua Titling MT
+Полужирный
+#ff0000
+#ffff00
+border-radius: 10px
+border: 2px solid #094065

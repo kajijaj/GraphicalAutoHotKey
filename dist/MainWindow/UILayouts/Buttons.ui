@@ -1,0 +1,2929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1313</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>1267</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <item row="1" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="tilda">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/tilda.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>ё</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Tab">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/tab.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>tab</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="CapsLock">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/caps.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>capslock</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="0" alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="Shift">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/shift.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>shift</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>45</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/ctrl.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>ctrl</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="end">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(187, 255, 38);</string>
+      </property>
+      <property name="text">
+       <string>Завершить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b1">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/1.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b2">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/2.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="3" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b3">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/3.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="7" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b7">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/7.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="8" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b8">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/8.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="9" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b9">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/9.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="4" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b4">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/4.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="5" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b5">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/5.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="6" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b6">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/6.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="12" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b_plus_eq">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/plus.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="13" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="backspace">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/backspace.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>backspace</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="10" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b0">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/0.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="14" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="In">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/ins.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>insert</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="16" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="PgUp">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>35</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/pageup.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>pgup</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="15" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="home">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>35</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/home.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>home</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="17" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="NumLock">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>60</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/numlock.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>numlock</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="19" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b_mul">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/mul.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>*</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="11" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="b_minus">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/minus.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>-</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="18" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="NumSlash">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/slash.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>/</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="20" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="num_min">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/minus.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>-</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QB">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/q.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>q</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QW">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/w.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>w</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="3" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QE">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/e.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>e</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="4" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QR">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/r.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>r</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="5" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QT">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/t.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>t</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="6" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QY">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/y.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>y</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="7" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QU">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/u.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>u</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="8" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QI">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/i.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>i</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="9" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QO">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/o.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>o</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="10" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QP">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/p.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>p</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="11" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="BraceL">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/lbrace.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>{</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="12" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="BraceR">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/rbrace.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>}</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="13" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="RevSlash">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/revslash.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>|</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="14" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Delete">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>35</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/del.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>del</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="16" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="PB">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/pause.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>pause</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="15" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="ScL">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>35</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/scrlk.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>scrlk</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="14" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="PrSc">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/prtsc.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>prtscn</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="15" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="End">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>35</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/end.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>end</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="16" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="PgDn">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/pagedown.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>pgdown</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="17" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num7">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/7.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="18" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num8">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/8.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="19" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num9">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/9.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="20" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num_plus">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/plus.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QA">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/a.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>a</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QS">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/s.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>s</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="3" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QD">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/d.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>d</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="4" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QF">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="5" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QG">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/g.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>g</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="6" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QH">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/h.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>h</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="7" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QJ">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/j.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>j</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="8" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QK">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/k.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>k</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="9" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QL">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/l.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>l</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="10" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="DoubleDot">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/ж.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>:</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="12" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Enter">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/enter.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>enter</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="17" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num4">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/4.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="18" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num5">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/5.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="19" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num6">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/6.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QZ">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>25</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/z.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>z</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QX">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/x.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>x</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="3" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QC">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/c.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>c</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="4" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QV">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/v.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>v</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="5" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QB_2">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/b.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>b</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="6" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QN">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/n.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>n</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="7" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="QM">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/m.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>m</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="8" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="LT">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/lt.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>&lt;</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="9" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="GT">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/gt.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>&gt;</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="10" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Signs">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>35</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/slash.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>?</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="11" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="RShift">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/shift.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>shift</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="17" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num1">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/1.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="18" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num2">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/2.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="19" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num3">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/3.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="20" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="NumEnter">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>45</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/enter.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>enter</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Win">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>75</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/win.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>windows</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Alt">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>35</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/alt.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>alt</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="4" colspan="3" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Space">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/space.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>space</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="9" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="RAlt">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>35</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/alt.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>alt</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="10" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="RWin">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>75</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/win.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>windows</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="11" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="RCtrl">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/ctrl.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>ctrl</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="13" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Up">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/up.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>up</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="12" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Left">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/left.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>left</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="13" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Down">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/down.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>down</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="14" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Right">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/right.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>right</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="17" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Num0">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/0.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="18" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="NumDel">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/del.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>del</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="11" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="Quotes">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/э.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>'</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="6" column="10" colspan="2">
+     <widget class="QLabel" name="result">
+      <property name="styleSheet">
+       <string notr="true">color: transparent</string>
+      </property>
+      <property name="text">
+       <string>Результат</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="12" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f12">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f12.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f12</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="11" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f11">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f11.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f11</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="10" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f10">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f10.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f10</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="9" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f9">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f9.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f9</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="8" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f8">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f8.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f8</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="7" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f7">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f7.png);
+background-repeat: no-repeat;
+color: transparent
+</string>
+      </property>
+      <property name="text">
+       <string>f7</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="6" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f6">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f6.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f6</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="5" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f5">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f5.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f5</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="4" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f4">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f4.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f4</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="3" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f3">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f3.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f3</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f2">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f2.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f2</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="f1">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/f1.png);
+background-repeat: no-repeat;
+color: transparent</string>
+      </property>
+      <property name="text">
+       <string>f1</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QPushButton" name="esc">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-image:url(assets/KeyBoardButtons/esc.png);
+background-repeat: no-repeat;
+color: transparent
+
+</string>
+      </property>
+      <property name="text">
+       <string>esc</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">KeyboardButtons</string>
+      </attribute>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="KeyboardButtons"/>
+ </buttongroups>
+</ui>
